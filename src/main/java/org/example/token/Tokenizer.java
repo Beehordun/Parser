@@ -88,7 +88,7 @@ public class Tokenizer {
             }
         }
 
-        throw new SyntaxException("Invalid token");
+        throw new SyntaxException("Invalid token: " + stringToMatch);
     }
 
     public void skipNextToken() {
